@@ -47,9 +47,10 @@ nav {
   position: absolute;
   display: none;
   right: 0;
-  background-color: lightgray;
+  background-color: rgba(247, 247, 247, 1);
   min-width: 160px;
-  box-shadow: 0 0 8px black;
+  box-shadow: 0 0 8px rgb(104, 103, 103);
+  border-radius: 6px;
 }
 .dropdown-content a {
   text-decoration: none;
@@ -58,7 +59,8 @@ nav {
   display: block;
 }
 .dropdown-content a:hover {
-  background-color: gray;
+  background-color: rgba(150, 150, 150, 1);
+  border-radius: 6px;
 }
 .dopdown:hover .dropdown-content {
   display: block;
